@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		AFA8E31F24FE694100AA3322 /* DarkDetectorMacOS.mm in Sources */ = {isa = PBXBuildFile; fileRef = AFA8E31D24FE694100AA3322 /* DarkDetectorMacOS.mm */; };
-		AFA8E32024FE694100AA3322 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AFA8E31E24FE694100AA3322 /* Info.plist */; };
 		AFE7F41B24FDF0A800DC5CD6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFE7F41A24FDF0A800DC5CD6 /* Foundation.framework */; };
 		AFE7F41D24FDF0AD00DC5CD6 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFE7F41C24FDF0AD00DC5CD6 /* AppKit.framework */; };
 /* End PBXBuildFile section */
@@ -97,7 +96,7 @@
 		AFA07FBF24FDEAEC007B0C82 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1200;
+				LastUpgradeCheck = 1240;
 				TargetAttributes = {
 					AFA07FC624FDEAEC007B0C82 = {
 						CreatedOnToolsVersion = 12.0;
@@ -127,7 +126,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFA8E32024FE694100AA3322 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,6 +147,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = x86_64;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -182,6 +181,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				EXCLUDED_ARCHS = arm64;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -208,6 +208,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = x86_64;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -241,6 +242,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXCLUDED_ARCHS = arm64;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -252,6 +254,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = macosx;
 			};
 			name = Release;
