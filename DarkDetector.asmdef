@@ -1,0 +1,19 @@
+{
+    "name": "DarkDetector",
+    "rootNamespace": "DarkDetector",
+    "references": [],
+    "includePlatforms": [
+        "Editor",
+        "iOS",
+        "macOSStandalone",
+        "tvOS"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
