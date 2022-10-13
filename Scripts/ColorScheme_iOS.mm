@@ -2,11 +2,11 @@
 #import <UIKit/UIKit.h>
 
 extern "C" {
-    int _GetCurrentColorScheme() {
+    int getCurrentColorScheme_iOS() {
         if (@available(iOS 13.0, *)) {
 			return [[UITraitCollection current] userInterfaceStyle];
         }
-    
-        return 1;
+
+        return 0;
     }
 }
