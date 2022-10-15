@@ -2,12 +2,7 @@
     "name": "NativeColorScheme",
     "rootNamespace": "NativeColorScheme",
     "references": [],
-    "includePlatforms": [
-        "Editor",
-        "iOS",
-        "macOSStandalone",
-        "tvOS"
-    ],
+    "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,
