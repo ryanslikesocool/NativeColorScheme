@@ -4,13 +4,13 @@ System color scheme detection in Unity for macOS and iOS (runtime) and macOS (ed
 ## Requirements
 Color Scheme requires macOS 11 or later, or iOS 14 or later
 
-**Recommended Installation** (Unity Package Manager)\
-- "Add package from git URL..."\
-- `https://github.com/ryanslikesocool/ColorScheme.git`\
+**Recommended Installation** (Unity Package Manager)
+- "Add package from git URL..."
+- `https://github.com/ryanslikesocool/NativeColorScheme.git`
 
-**Alternate Installation**\
-- Get the latest [release](https://github.com/ryanslikesocool/ColorScheme/releases)\
-- Open with the desired Unity project\
+**Alternate Installation**
+- Get the latest [release](https://github.com/ryanslikesocool/ColorScheme/releases)
+- Open with the desired Unity project
 - Import into the Plugins folder
 
 ## Usage
