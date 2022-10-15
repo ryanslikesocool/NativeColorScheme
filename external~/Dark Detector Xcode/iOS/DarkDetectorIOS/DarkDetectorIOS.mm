@@ -1,20 +1,12 @@
-//
-//  DarkDetectorIOS.mm
-//  DarkDetectorIOS
-//
-//  Created by Ryan Boyer on 9/1/20.
-//
-
-#include "DarkDetectorIOS.h"
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 extern "C" {
-    bool _IsDarkModeEnabled() {
-        if (@available(iOS 14.0, *)) {
-            if(UIScreen.mainScreen.traitCollection.userInterfaceStyle == UIUserInterfaceStyleDark) {
-                return true;
-            }
+    int _GetCurrentColorScheme() {
+        if (@available(iOS 13.0, *)) {
+			return [[UITraitCollection current] userInterfaceStyle];
         }
     
-        return false;
+        return 1;
     }
 }
