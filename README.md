@@ -1,4 +1,4 @@
-# Color Scheme
+# NativeColorScheme
 System color scheme detection in Unity for macOS and iOS (runtime) and macOS (editor).
 
 ## Requirements
