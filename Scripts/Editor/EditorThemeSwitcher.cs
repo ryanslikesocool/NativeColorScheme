@@ -2,7 +2,7 @@
 using UnityEditor;
 using UnityEngine;
 
-namespace ColorScheme {
+namespace NativeColorScheme {
     [InitializeOnLoad]
     public class EditorThemeSwitcher {
         static EditorThemeSwitcher() {

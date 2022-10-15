@@ -2,7 +2,7 @@
 using System.Runtime.InteropServices;
 #endif
 
-namespace ColorScheme {
+namespace NativeColorScheme {
     public static class ColorSchemeUtil {
 #if UNITY_EDITOR_OSX || UNITY_STANDALONE_OSX
         [DllImport("ColorScheme_macOS")]

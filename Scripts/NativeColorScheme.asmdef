@@ -1,6 +1,6 @@
 {
-    "name": "ColorScheme",
-    "rootNamespace": "ColorScheme",
+    "name": "NativeColorScheme",
+    "rootNamespace": "NativeColorScheme",
     "references": [],
     "includePlatforms": [
         "Editor",

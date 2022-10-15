@@ -1,6 +1,6 @@
 using System;
 
-namespace ColorScheme {
+namespace NativeColorScheme {
     public enum ColorScheme : byte {
         Unknown = 0,
         Light = 1,
