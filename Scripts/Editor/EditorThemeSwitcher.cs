@@ -18,7 +18,7 @@ namespace NativeColorScheme {
             }
         }
 
-        [MenuItem("Tools/Developed With Love/Dark Detector/Print Current Color Scheme")]
+        [MenuItem("Tools/Debug/Print Current Color Scheme")]
         private static void PrintCurrentColorScheme() {
             Debug.Log(ColorSchemeUtil.CurrentColorScheme);
         }
