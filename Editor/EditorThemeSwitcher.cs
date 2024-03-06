@@ -1,6 +1,5 @@
 #if UNITY_EDITOR_OSX
 using UnityEditor;
-using UnityEngine;
 
 namespace NativeColorScheme {
 	public static class EditorThemeSwitcher {
