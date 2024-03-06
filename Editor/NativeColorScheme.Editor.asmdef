@@ -1,0 +1,18 @@
+{
+    "name": "NativeColorScheme.Editor",
+    "rootNamespace": "NativeColorScheme.Editor",
+    "references": [
+        "GUID:c8c56aad610fe4ee3936149e38efa88a"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
