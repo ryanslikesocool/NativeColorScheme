@@ -1,7 +1,7 @@
 {
   "name": "com.developedwithlove.nativecolorscheme",
   "displayName": "Native Color Scheme",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "unity": "2020.3",
   "description": "System color scheme detection in Unity for macOS and iOS.",
   "documentationUrl": "https://github.com/ryanslikesocool/NativeColorScheme",

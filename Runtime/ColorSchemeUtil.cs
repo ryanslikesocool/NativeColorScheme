@@ -1,3 +1,5 @@
+// Developed With Love by Ryan Boyer http://ryanjboyer.com <3
+
 #if UNITY_EDITOR_OSX || UNITY_STANDALONE_OSX || UNITY_IOS
 using System.Runtime.InteropServices;
 #endif

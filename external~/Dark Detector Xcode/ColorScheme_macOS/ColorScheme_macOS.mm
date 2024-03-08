@@ -1,3 +1,5 @@
+// Developed With Love by Ryan Boyer http://ryanjboyer.com <3
+
 #import <AppKit/AppKit.h>
 #import <Foundation/Foundation.h>
 
