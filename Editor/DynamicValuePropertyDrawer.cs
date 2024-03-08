@@ -17,14 +17,16 @@ namespace NativeColorScheme.Editor {
 					position = EditorGUI.PrefixLabel(position, GUIUtility.GetControlID(FocusType.Passive), label);
 					float propertyWidth = (position.width - SPACING) * 0.5f;
 
+					float initialLabelWidth = EditorGUIUtility.labelWidth;
+					int initialIndentLevel = EditorGUI.indentLevel;
+
+					EditorGUIUtility.labelWidth = LABEL_WIDTH;
+					EditorGUI.indentLevel = 0;
+
 					SerializedProperty light = property.FindPropertyRelative("light");
 					SerializedProperty dark = property.FindPropertyRelative("dark");
 
 					position.width = propertyWidth;
-
-					float initialLabelWidth = EditorGUIUtility.labelWidth;
-
-					EditorGUIUtility.labelWidth = LABEL_WIDTH;
 
 					EditorGUI.PropertyField(position, light);
 
@@ -32,6 +34,7 @@ namespace NativeColorScheme.Editor {
 					EditorGUI.PropertyField(position, dark);
 
 					EditorGUIUtility.labelWidth = initialLabelWidth;
+					EditorGUI.indentLevel = initialIndentLevel;
 				}
 			}
 		}
